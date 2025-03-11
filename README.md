@@ -1,8 +1,6 @@
-# Wagtail Starter Kit (base)
+# Nick Moreton Blog
 
-This is a starter kit for a Wagtail project. It includes a Docker setup for local development, a basic project structure, and some useful tools and libraries.
-
-You can use this project as a starting point for your own Wagtail projects and build upon it as needed.
+This is a copy of my blog site, which is built using Wagtail CMS. It's derived from my [Wagtail Starter Kit](https://github.com/wagtail-examples/wagtail-starter-kit).
 
 ## Features
 
@@ -12,8 +10,6 @@ You can use this project as a starting point for your own Wagtail projects and b
 - Pico CSS for almost classless styling
 - esbuild javascript bundler
 - Wagtail CMS v6.3
-
-![Wagtail Starter Kit](./docs/welcome-screen.jpg)
 
 ## Requirements
 
@@ -33,7 +29,7 @@ Optional:
 
 ## Getting started
 
-1. Clone this repository [https://github.com/wagtail-examples/wagtail-starter-kit.git](https://github.com/wagtail-examples/wagtail-starter-kit.git) to a location on your computer
+1. Clone this repository [https://github.com/wagtail-examples/nickmoreton](https://github.com/wagtail-examples/nickmoreton) to a location on your computer
 2. Change into the project directory
 3. Run `make build` to build the Docker containers
 4. Run `make up` to start the Docker containers
@@ -75,19 +71,7 @@ The Wagtail admin interface will be available at [http://localhost:8000/admin](h
 
 ## Deployment
 
-Currenyly there is no deployment setup included in this project. You could try this [Wagtail deployment guide](https://docs.wagtail.org/en/stable/deployment/index.html) for some ideas.
-
-## Deployment Examples
-
-1.  How to deploy a Wagtail site to [PythonAnywhere](https://www.nickmoreton.co.uk/articles/deploy-wagtail-cms-to-pythonanywhere/), this does need you to have a paid account with PythonAnywhere.
-2. This [example](https://github.com/wagtail-examples/wsk-deploy-python-anywhere) is a fork of this starter kit which has documentation on how to deploy to PythonAnywhere, using a free account.
-
-## Bonus branches
-
-There are 2 branches that you can use to explore more features of the project:
-
-- [Wagtail 'Getting Started Tutorial' PR](https://github.com/wagtail-examples/wagtail-starter-kit/pull/3) Is a run through of the official Wagtail Getting Started tutorial where a simple blog is created.
-- [Wagtail 'Extended Tutorial'](https://github.com/wagtail-examples/wagtail-starter-kit/pull/4) Is a run through of the official Wagtail Extended Tutorial where the Getting Started Tutorial is extended to include more features.
+WIP for heroku deployment
 
 ## Contributing
 
